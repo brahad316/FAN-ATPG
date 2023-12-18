@@ -1,5 +1,6 @@
 # FAN-ATPG
-an implementation of the FAN ATPG algorithm in c++ and verilog.
+An implementation of the FAN ATPG algorithm in c++ and verilog. the current version works on combinations circuits with any number of gates, primary inputs/outputs. However, all the logic gates needs to have precisely two inputs.
+The circuit under test (CUT) should be described in a verilog file.
 
 # Running the Code
 
